@@ -3,21 +3,54 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-}
 
 /* Header and navigation */
-header, footer {
-    background-color: #1f4e79; /* dark blue */
-    color: white;
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    background-color: #1f4e79;
     padding: 1rem;
 }
 
-nav a {
+.logo {
+   max-width: 120px;
+}
+nav {
+display: flex;
+justify-content: flex-end;
+gap: 1rem;
+}
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
+    font-weight: bold;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+}
+.history h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+ }
+ .adventure {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f4e79;
+    color: white;
+    padding: 1rem;
+}
+    
 /* Main content area */
 main {
     padding: 1rem;
