@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Get in touch with us for rafting inquiries, reservations, or suggestions. Contact our team via email, phone, or our online form">
+    <title>Contact Us |  Your Rafting Company</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="images/profile.jpg" alt="Rafting Company Logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section class="company-information">
+            <h2>Our Contact Information</h2>
+            <p><Address>123 River Road, Adventure Town, USA<P>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@raftingcompany.com</p>
+        </section class="company-map">
+        <h2>Our Location</h2>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019764456927!2d-122.41941508468196!3d37.77492977975971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c2f4b8b7b%3A0x4a4e4b4e4b4e4b4e!2s123%20River%20Road%2C%20Adventure%20Town%2C%20USA!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</section>
+
+  <!-- Employee Profiles -->
+  <section class="employees">
+    <h2>Meet Our Team</h2>
+    <figure>
+      <img src="images/employee1.jpg" alt="Jane Doe, Lead Rafting Guide">
+      <figcaption>Jane Doe – Lead Rafting Guide</figcaption>
+    </figure>
+    <figure>
+      <img src="images/employee2.jpg" alt="John Smith, Operations Manager">
+      <figcaption>John Smith – Operations Manager</figcaption>
+    </figure>
+    <figure>
+      <img src="images/employee3.jpg" alt="Alice Lee, Safety Coordinator">
+      <figcaption>Alice Lee – Safety Coordinator</figcaption>
+    </figure>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!-- Purpose -->
+      <p>Purpose of your message:</p>
+      <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+      <label for="general">General Inquiry</label><br>
+
+      <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+      <label for="reservation">Reservation Question</label><br>
+
+      <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+      <label for="suggestion">Website Suggestion</label><br>
+
+      <!-- Message -->
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <!-- Newsletter Checkbox -->
+      <input type="checkbox" id="subscribe" name="subscribe">
+      <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+      <!-- Submit Button -->
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Rafting Company | All Rights Reserved</p>
+
+        <nav class="sociallinks">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </nav>
+    </footer>
+
+</body>
+</html>

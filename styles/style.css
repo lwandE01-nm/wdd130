@@ -1,3 +1,105 @@
+/* --------- RESET --------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------- BODY --------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* --------- HEADER --------- */
+header {
+    background-color: #d8cfff; /* light purple like sample */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --------- HERO SECTION --------- */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1rem;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+/* --------- HISTORY --------- */
+.history {
+    padding: 2rem;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.history h2 {
+    margin-bottom: 1rem;
+}
+
+/* --------- ADVENTURE --------- */
+.adventure {
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* --------- FOOTER --------- */
+footer {
+    background-color: #d8cfff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+.sociallinks a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #003366;
+}
 /* Global styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
