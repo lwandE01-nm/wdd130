@@ -1,0 +1,129 @@
+/* ===== RESET BASIC STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HEADER & NAV ===== */
+header {
+  background-color: #1f4e79;
+  padding: 15px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+header nav a:hover {
+  background-color: #163d5c;
+  border-radius: 5px;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #1f4e79;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* ===== IMAGES ===== */
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* Profile or hero image */
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Employee images */
+.employees {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.employees figure {
+  text-align: center;
+  width: 150px;
+}
+
+.employees img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Trips images grid */
+.trips-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+/* ===== FORMS (Contact Page) ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #1f4e79;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #163d5c;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1f4e79;
+  color: white;
+  margin-top: 40px;
+}

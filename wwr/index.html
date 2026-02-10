@@ -3,30 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nothando Alwande Mabaso | WDD 130</title>
+    <meta name="description" content="White water rafting adventures and trips.">
+    <title>White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
 
-    <!-- HEADER -->
+    <!-- HEADER & NAVIGATION -->
     <header>
+        <h1>White River Rafting Company</h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <!-- MAIN CONTENT -->
     <main>
-        <h1>Nothando Alwande Mabaso | WDD 130</h1>
+        <!-- HERO IMAGE SECTION -->
+        <section class="hero">
+            <img src="images/rafting2.jpg" alt="White water rafting adventure">
+            <h2>Experience the Thrill of White Water Rafting</h2>
+        </section>
 
-        <img src="images/myprofile.jpg" alt="Photo of Nothando Alwande Mabaso" width="200">
+        <!-- NEWSLETTER SIGNUP -->
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        <p>Hello! I’m Nothando, learning web development at WDD 130. I’m passionate about building websites and improving my skills every day.</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="cta">
+            <a href="trips.html" class="cta-button">View Our Trips</a>
+        </section>
+
+        <!-- CSS GRID SECTION -->
+        <section class="grid-section">
+            <div>
+                <img src="images/rafting1.jpg" alt="Rafting fun">
+                <p>Safe and exciting rafting experiences for everyone.</p>
+            </div>
+            <div>
+                <img src="images/rafting3.jpg" alt="River adventure">
+                <p>Perfect for families, beginners, and thrill seekers.</p>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Nothando Alwande Mabaso | Eswatini</p>
+        <p>© 2026 White River Rafting Company | All Rights Reserved</p>
     </footer>
 
 </body>
