@@ -1,0 +1,117 @@
+/* =========================
+   RESET (REQUIRED)
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   VARIABLES (REQUIRED)
+========================= */
+:root {
+    --primary-color: #0B4F6C;
+    --secondary-color: #01BAEF;
+    --accent1-color: #1B1B1B;
+    --accent2-color: #FFFFFF;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+}
+
+/* =========================
+   HEADER + NAV
+========================= */
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-family: var(--heading-font);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px;
+    max-width: 300px;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+    padding: 20px;
+}
+
+/* =========================
+   FIGURES
+========================= */
+figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: auto;
+}
