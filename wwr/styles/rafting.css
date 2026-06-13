@@ -267,3 +267,14 @@ th {
     background: #0c5a80;
     color: white;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+}
